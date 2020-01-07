@@ -4,9 +4,8 @@ import { capabilities, setComponentManager } from '@ember/component';
 
 class RenderDetectorManager {
   constructor() {
-    this.capabilities = capabilities('3.13', {
+    this.capabilities = capabilities('3.4', {
       asyncLifecycleCallbacks: true,
-      updateHook: true,
     });
   }
 
